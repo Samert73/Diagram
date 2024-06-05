@@ -1,0 +1,15 @@
+```mermaid
+graph TD
+  CEO["CEO"]
+  CTO["CTO"]
+  CFO["CFO"]
+  M1["Manager 1"]
+  M2["Manager 2"]
+  M3["Manager 3"]
+  M4["Manager 4"]
+  CEO --> CTO
+  CEO --> CFO
+  CTO --> M1
+  CTO --> M2
+  CFO --> M3
+  CFO --> M4
